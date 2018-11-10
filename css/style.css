@@ -1,0 +1,278 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+/* hero */
+.hero-area,
+.info-area,
+.feature-area,
+.pricing-area {
+    padding: 8em 3em;
+}
+
+.hero-title {
+    text-transform: uppercase;
+}
+
+/* navbar */
+.navbar-brand {
+    padding: 5px;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav>li>a {
+        padding-top: 17px;
+        padding-bottom: 15px;
+    }
+}
+
+/* available on */
+.available-area {
+    padding: 2em;
+}
+
+.available-title {
+    text-align: center;
+}
+
+.available-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.available-links li {
+    margin: 10px;
+}
+
+/* features */
+.section-title {
+    text-align: center;
+    margin: 0 0 5em;
+}
+
+.feature-box {
+    margin: 0 0 100px;
+}
+
+.feature-content h3 {
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+.feature-icon img {
+    width: 30px;
+}
+
+/* video */
+.video-area {
+    background: rgba(0, 0, 0, 0.5) url(/img/hero_features_apps.jpg) no-repeat fixed 0 0 / cover;
+    padding: 200px 0;
+}
+
+.video-bckg {
+    position: relative;
+}
+
+.video-button {
+    text-align: center;
+}
+/* 
+.video-button a {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    border-radius: 100px;
+    color: #fff;
+    display: inline-block;
+    font-size: 40px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    width: 120px;
+} */
+
+
+/* pricing plans */
+.single-pricing {
+    box-shadow: 5px 5px 2px -5px rgba(0, 0, 0, 0.75);
+    min-height: 800px;
+    overflow: hidden;
+    padding: 1em;
+    text-align: center;
+}
+
+.single-pricing.active,
+.single-pricing:hover {
+    box-shadow: 5px 5px 30px -5px rgba(99, 96, 99, 1);
+}
+
+.single-pricing .sp-title {
+    color: #898989;
+    font-size: 36px;
+    margin: 20px 0 50px;
+    text-transform: uppercase;
+}
+
+.sp-details {
+    margin: 1em 0 3em;
+    text-align: left;
+}
+
+.single-pricing .sp-list {
+    margin: 0 0 3em;
+    padding-left: 0;
+    text-align: left;
+}
+
+.single-pricing .sp-list li {
+    line-height: 30px;
+}
+
+.sp-price {
+    margin: 0 auto 10px;
+    font-size: 48px;
+}
+        
+.symbol {
+    font-size: 24px;
+    vertical-align: top;
+    position: relative;
+    margin: 6px 0 0 -7px;
+    display: inline-block;
+}
+
+.per-month {
+    color: #898989;
+    font-size: 16px;
+}
+
+.btn {
+    padding: 10px 30px;
+    margin: 20px auto;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/* subscribe */
+.subscribe-area {
+    padding: 3em;
+}
+
+.subscribe {
+    margin: 3em 0;
+}
+
+.subscribe-input-container {
+    display: inline-block;
+    position: relative;
+}
+
+.sic-name,
+.sic-email {
+    padding: 0 30px;
+    width: 40%;
+}
+
+.sib-submit {
+    width: 19%;
+}
+
+.subscribe-input-container span {
+    font-size: 14px;
+    left: 0;
+    position: absolute;
+    top: 18px;
+}
+
+.subscribe-input-container input[type="text"],
+.subscribe-input-container input[type="email"] {
+    background: transparent none repeat scroll 0 0;
+    border: 0 none;
+    border-bottom: 1px solid #c7c7c7;
+    color: #404040;
+    font-size: 14px;
+    height: 48px;
+    letter-spacing: 0;
+    line-height: 48px;
+    padding: 0;
+    width: 100%;
+}
+
+.subscribe-input-container input[type="submit"] {
+    background: #21b9ca none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 19px;
+    padding: 14px 100px;
+}
+
+/* footer */
+footer {
+    border-top: 1px solid #cecece;
+    padding: 26px 0 44px;
+}
+
+.logo {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.fba-logo p {
+    display: inline-block;
+}
+
+.fba-social {
+    list-style: outside none none;
+    padding: 0;
+    text-align: right;
+}
+
+.footer-social {
+    width: 40px;
+}
+
+.fba-social li {
+    display: inline-block;
+    margin-right: 14px;
+}
+
+@media (max-width: 400px) {
+    .hero-area,
+    .info-area,
+    .feature-area,
+    .pricing-area {
+        padding: 5em 1em;
+    }
+    .available-title {
+        text-align: left;
+    }
+    .available-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .single-pricing {
+        min-height: auto;
+    }
+    .sic-name,
+    .sic-email {
+        width: 100%;
+    }
+    .fba-logo {
+        margin-bottom: 20px;
+    }
+}
