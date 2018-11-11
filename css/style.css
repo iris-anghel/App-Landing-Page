@@ -14,6 +14,28 @@ li {
     list-style: none;
 }
 
+/* colors */
+.hero-area,
+.available-area,
+.subscribe-area {
+    background-color: #f7f7f7;
+}
+
+.pricing-area {
+    background-color: #f4f2f2;
+}
+
+.feature-area,
+footer {
+    background-color: #FF9A00;
+}
+
+.info-area {
+    background-color: #252525;
+    color: #f7f7f7;
+}
+
+
 /* hero */
 .hero-area,
 .info-area,
@@ -76,33 +98,6 @@ li {
     width: 30px;
 }
 
-/* video */
-.video-area {
-    background: rgba(0, 0, 0, 0.5) url(/img/hero_features_apps.jpg) no-repeat fixed 0 0 / cover;
-    padding: 200px 0;
-}
-
-.video-bckg {
-    position: relative;
-}
-
-.video-button {
-    text-align: center;
-}
-/* 
-.video-button a {
-    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
-    border-radius: 100px;
-    color: #fff;
-    display: inline-block;
-    font-size: 40px;
-    height: 120px;
-    line-height: 120px;
-    text-align: center;
-    width: 120px;
-} */
-
-
 /* pricing plans */
 .single-pricing {
     box-shadow: 5px 5px 2px -5px rgba(0, 0, 0, 0.75);
@@ -110,6 +105,7 @@ li {
     overflow: hidden;
     padding: 1em;
     text-align: center;
+    background-color: #f7f7f7;
 }
 
 .single-pricing.active,
@@ -207,18 +203,6 @@ li {
     line-height: 48px;
     padding: 0;
     width: 100%;
-}
-
-.subscribe-input-container input[type="submit"] {
-    background: #21b9ca none repeat scroll 0 0;
-    border: 0 none;
-    border-radius: 25px;
-    color: #fff;
-    font-size: 15px;
-    font-weight: 500;
-    letter-spacing: 0;
-    line-height: 19px;
-    padding: 14px 100px;
 }
 
 /* footer */
